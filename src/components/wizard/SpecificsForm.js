@@ -14,14 +14,14 @@ const SpecificsForm = () => {
             value="musical"
             name="specific"
             title="I'm a musical person"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I love listening to and making music more than I like physical art."
             className="mb-3"
           />
           <CardSelect
             value="notmusical"
             name="specific"
-            title="I'm not a very musical person"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            title="I'm not a very musical person; I prefer drawing and painting to singing."
+            description="I prefer ."
           />
         </FormGroup>
       )}
@@ -31,14 +31,14 @@ const SpecificsForm = () => {
             value="techbased"
             name="specific"
             title="I like working with computers"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="The idea of building an app or website interests me."
             className="mb-3"
           />
           <CardSelect
             value="nottechbased"
             name="specific"
             title="I prefer to work with my hands"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I'm not really a computer person. I'd rather write a book than publish a website."
           />
         </FormGroup>
       )}
@@ -48,14 +48,14 @@ const SpecificsForm = () => {
             value="mathematical"
             name="specific"
             title="I like math"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I'm a big math person, and I'm interested in how computers can help solve complex problems."
             className="mb-3"
           />
           <CardSelect
             value="notmathematical"
             name="specific"
             title="I'm not a big math person"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I'm interested in computers, but am not a very computer-oriented person."
           />
         </FormGroup>
       )}
@@ -65,14 +65,14 @@ const SpecificsForm = () => {
             value="business"
             name="specific"
             title="I want to learn about business"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="If I had the chance, I'd love to start and run a business."
             className="mb-3"
           />
           <CardSelect
             value="notbusiness"
             name="specific"
             title="I'm not really into business"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I'd rather learn about sales and marketing than leadership in a business setting."
           />
         </FormGroup>
       )}
@@ -82,14 +82,14 @@ const SpecificsForm = () => {
             value="exercise"
             name="specific"
             title="I want to get in shape"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="QUARANTINE GAINS. QUARANTINE GAINS. QUARANTINE GAINS. QUARANTINE GAINS. QUARANTINE GAINS."
             className="mb-3"
           />
           <CardSelect
             value="notexercise"
             name="specific"
             title="I just wanna have fun"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I'd love to try yoga or Tai Chi rather than lift weights and do squats."
           />
         </FormGroup>
       )}
@@ -99,14 +99,14 @@ const SpecificsForm = () => {
             value="exercise"
             name="specific"
             title="I want to get in shape"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="Running a marathon sounds like a fun time. I want to get outside and stay healthy!"
             className="mb-3"
           />
           <CardSelect
             value="notexercise"
             name="specific"
             title="I just wanna have fun"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I'd rather go to the park and throw a frisbee than ride a bike up a long hill."
           />
         </FormGroup>
       )}
@@ -116,14 +116,14 @@ const SpecificsForm = () => {
             value="contentcreation"
             name="specific"
             title="I want to learn how to make games"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I've always wondered how my favorite video games were made."
             className="mb-3"
           />
           <CardSelect
             value="notcontentcreation"
             name="specific"
             title="I just want to play"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I want to become a better player by studying strategy and technique."
           />
         </FormGroup>
       )}
@@ -133,14 +133,14 @@ const SpecificsForm = () => {
             value="food"
             name="specific"
             title="I'm interested in cooking"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I want to impress my crush with some delicious pancakes!"
             className="mb-3"
           />
           <CardSelect
             value="notfood"
             name="specific"
             title="I'm not really a foodie"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I'm interested in activities like history, knitting and photography."
           />
         </FormGroup>
       )}
