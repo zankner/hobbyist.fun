@@ -2,8 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import config from '../../config';
-import logo from '../../assets/img/logos/polar-chefs-logo.png';
+import logo from '../../assets/img/logos/hobbyist.svg';
 
 const Logo = ({ at, height, width, className, ...rest }) => (
   <Link
@@ -27,7 +26,7 @@ const Logo = ({ at, height, width, className, ...rest }) => (
       )}
     >
       <img className="mr-2" src={logo} alt="" height={36} width={width} />
-      <span className="text-sans-serif fs-2 text-secondary">{config.guild.name}</span>
+      <span className="text-sans-serif fs-2 text-secondary">Hobbyist</span>
     </div>
   </Link>
 );

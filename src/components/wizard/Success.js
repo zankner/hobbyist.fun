@@ -1,15 +1,20 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Button, Col, Row } from 'reactstrap';
 import Lottie from 'react-lottie';
 import { useFormikContext } from 'formik';
+import axios from 'axios';
 import animationData from './lottie/celebration.json';
 import { AuthWizardContext } from '../../context/Context';
 
 const Success = () => {
   const { setStep } = useContext(AuthWizardContext);
   const { resetForm, values } = useFormikContext();
+  const [hobby, setHobby] = useState(null);
 
-  console.log(values);
+  useEffect(() => {
+    axios.get('/api/hobbies', { params: values })
+      .then(setHobby);
+  }, [values]);
 
   const defaultOptions = {
     loop: true,
@@ -25,6 +30,8 @@ const Success = () => {
     resetForm();
   };
 
+  if (!hobby) return '';
+
   return (
     <>
       <Row>
@@ -34,8 +41,11 @@ const Success = () => {
               <Lottie options={defaultOptions} />
             </div>
           </div>
-          <h4 className="mb-1">Your account is all set!</h4>
-          <p className="fs-0">Now you can access to your account</p>
+          <h4 className="mb-1">We found you a hobby!</h4>
+          <p className="fs-0">
+            We recommend you try {hobby.name}. Get started with this online video
+            course: <a href={hobby.courses[0].url}>{hobby.courses[0].name}</a>
+          </p>
           <Button color="primary" className="px-5 my-3 text-white" onClick={emptyData}>
             Start Over
           </Button>
