@@ -1,15 +1,13 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { Card, CardBody, CardFooter, CardHeader, Nav, NavItem, NavLink } from 'reactstrap';
 import classNames from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Formik, Form } from 'formik';
+import { Form, Formik } from 'formik';
 import GoalForm from './GoalForm';
 import InterestForm from './InterestForm';
 import InclinationForm from './InclinationForm';
 import Success from './Success';
 import AppContext, { AuthWizardContext } from '../../context/Context';
-
-import WizardModal from './WizardModal';
 import ButtonIcon from '../common/ButtonIcon';
 import SpecificsForm from './SpecificsForm';
 
@@ -22,23 +20,14 @@ const HobbyForm = () => {
     setStep(step + 1);
   };
 
-  const [modal, setModal] = useState(false);
-
-  const toggle = () => setModal(!modal);
-
   const handleBackStep = (targetStep) => {
-    if (step !== 4) {
-      if (targetStep < step) {
-        setStep(targetStep);
-      }
-    } else {
-      toggle();
+    if (targetStep < step) {
+      setStep(targetStep);
     }
   };
 
   return (
     <>
-      <WizardModal toggle={toggle} modal={modal} setModal={setModal} />
       <Formik
         initialValues={{
           goal: null,

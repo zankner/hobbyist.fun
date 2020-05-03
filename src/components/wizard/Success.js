@@ -7,7 +7,9 @@ import { AuthWizardContext } from '../../context/Context';
 
 const Success = () => {
   const { setStep } = useContext(AuthWizardContext);
-  const { resetForm } = useFormikContext();
+  const { resetForm, values } = useFormikContext();
+
+  console.log(values);
 
   const defaultOptions = {
     loop: true,

@@ -8,70 +8,138 @@ const SpecificsForm = () => {
 
   return (
     <>
-      {values.inclination === 'creative' && (
+      {values.interest === 'artsy' && (
         <FormGroup>
           <CardSelect
-            value="artsy"
-            name="interest"
-            title="I'm an artsy person"
+            value="musical"
+            name="specific"
+            title="I'm a musical person"
             description="Learn a skill to further your career, like coding, marketing, or music production."
             className="mb-3"
           />
           <CardSelect
-            value="notartsy"
-            name="interest"
-            title="I'm not very artsy"
+            value="notmusical"
+            name="specific"
+            title="I'm not a very musical person"
             description="Learn a skill to further your career, like coding, marketing, or music production."
           />
         </FormGroup>
       )}
-      {values.inclination === 'analytical' && (
+      {values.interest === 'notartsy' && (
         <FormGroup>
           <CardSelect
-            value="techy"
-            name="interest"
+            value="techbased"
+            name="specific"
             title="I like working with computers"
             description="Learn a skill to further your career, like coding, marketing, or music production."
             className="mb-3"
           />
           <CardSelect
-            value="nottechy"
-            name="interest"
+            value="nottechbased"
+            name="specific"
             title="I prefer to work with my hands"
             description="Learn a skill to further your career, like coding, marketing, or music production."
           />
         </FormGroup>
       )}
-      {values.inclination === 'active' && (
+      {values.interest === 'techy' && (
         <FormGroup>
           <CardSelect
-            value="outdoorsy"
-            name="interest"
-            title="I like to be active"
+            value="mathematical"
+            name="specific"
+            title="I like math"
             description="Learn a skill to further your career, like coding, marketing, or music production."
             className="mb-3"
           />
           <CardSelect
-            value="indoorsy"
-            name="interest"
-            title="I prefer to work with my mind"
+            value="notmathematical"
+            name="specific"
+            title="I'm not a big math person"
             description="Learn a skill to further your career, like coding, marketing, or music production."
           />
         </FormGroup>
       )}
-      {values.inclination === 'inactive' && (
+      {values.interest === 'nottechy' && (
         <FormGroup>
           <CardSelect
-            value="gamer"
-            name="interest"
-            title="I like playing games"
+            value="business"
+            name="specific"
+            title="I want to learn about business"
             description="Learn a skill to further your career, like coding, marketing, or music production."
             className="mb-3"
           />
           <CardSelect
-            value="nongamer"
-            name="interest"
-            title="I'm not really a game person"
+            value="notbusiness"
+            name="specific"
+            title="I'm not really into business"
+            description="Learn a skill to further your career, like coding, marketing, or music production."
+          />
+        </FormGroup>
+      )}
+      {values.interest === 'indoorsy' && (
+        <FormGroup>
+          <CardSelect
+            value="exercise"
+            name="specific"
+            title="I want to get in shape"
+            description="Learn a skill to further your career, like coding, marketing, or music production."
+            className="mb-3"
+          />
+          <CardSelect
+            value="notexercise"
+            name="specific"
+            title="I just wanna have fun"
+            description="Learn a skill to further your career, like coding, marketing, or music production."
+          />
+        </FormGroup>
+      )}
+      {values.interest === 'outdoorsy' && (
+        <FormGroup>
+          <CardSelect
+            value="exercise"
+            name="specific"
+            title="I want to get in shape"
+            description="Learn a skill to further your career, like coding, marketing, or music production."
+            className="mb-3"
+          />
+          <CardSelect
+            value="notexercise"
+            name="specific"
+            title="I just wanna have fun"
+            description="Learn a skill to further your career, like coding, marketing, or music production."
+          />
+        </FormGroup>
+      )}
+      {values.interest === 'gamer' && (
+        <FormGroup>
+          <CardSelect
+            value="contentcreation"
+            name="specific"
+            title="I want to learn how to make games"
+            description="Learn a skill to further your career, like coding, marketing, or music production."
+            className="mb-3"
+          />
+          <CardSelect
+            value="notcontentcreation"
+            name="specific"
+            title="I just want to play"
+            description="Learn a skill to further your career, like coding, marketing, or music production."
+          />
+        </FormGroup>
+      )}
+      {values.interest === 'notgamer' && (
+        <FormGroup>
+          <CardSelect
+            value="food"
+            name="specific"
+            title="I'm interested in cooking"
+            description="Learn a skill to further your career, like coding, marketing, or music production."
+            className="mb-3"
+          />
+          <CardSelect
+            value="notfood"
+            name="specific"
+            title="I'm not really a foodie"
             description="Learn a skill to further your career, like coding, marketing, or music production."
           />
         </FormGroup>
