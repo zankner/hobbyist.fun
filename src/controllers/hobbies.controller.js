@@ -27,7 +27,6 @@ module.exports.get = async (req, res) => {
           if (specific === 'musical') {
             hobby.name = 'Music Production';
             hobby.courses = hobbies.musicProduction;
-          } else if (specific === 'notMusical') {
             hobby.name = 'Graphic Design';
             hobby.courses = hobbies.graphicDesign;
           } else {
@@ -60,7 +59,8 @@ module.exports.get = async (req, res) => {
         } else if (interest === 'notTechy') {
           if (specific === 'business') {
             hobby.name = 'Management Skills';
-            hobby.couress = hobbies.management;
+            hobby.courses = hobbies.management;
+            console.log(hobby);
           } else if (specific === 'notBusiness') {
             hobby.name = 'Marketing Skills';
             hobby.courses = hobbies.marketing;
