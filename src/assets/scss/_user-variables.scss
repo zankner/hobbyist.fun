@@ -1,0 +1,22 @@
+//
+//
+// user-variables.scss
+//
+// Place your own variable overrides here, these will override any Bootstrap and theme variables.
+
+$input-padding-x: .5rem;
+
+$sizes: () !default;
+$sizes: map-merge(
+  (
+    25: 25%,
+    30: 30%,
+    35: 35%,
+    40: 40%,
+    50: 50%,
+    75: 75%,
+    100: 100%,
+    auto: auto
+  ),
+  $sizes
+);
