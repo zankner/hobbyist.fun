@@ -27,8 +27,8 @@ module.exports.get = async (req, res) => {
           if (specific === 'musical') {
             hobby.name = 'Music Production';
             hobby.courses = hobbies.musicProduction;
-          }
-          if (specific === 'notMusical') {
+            console.log(hobby)
+          } else if (specific === 'notMusical') {
             hobby.name = 'Graphic Design';
             hobby.courses = hobbies.graphicDesign;
           } else {
