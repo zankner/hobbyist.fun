@@ -13,7 +13,7 @@ const BaseLayout = ({ location }) => {
   return (
     <div className="container-fluid min-vh-100 bg-img">
       <Switch>
-        <Route path="/start" component={WizardLayout} />
+        <Route path="/" component={WizardLayout} />
       </Switch>
     </div>
   );
