@@ -13,6 +13,7 @@ const Success = () => {
 
   useEffect(() => {
     axios.get('/api/hobbies', { params: values })
+      .then((response) => response.data)
       .then(setHobby);
   }, [values]);
 
