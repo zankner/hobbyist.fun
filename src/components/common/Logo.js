@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/img/illustrations/falcon.png';
+import logo from '../../assets/img/logos/hobbyist.png';
 
 const Logo = ({ at, width, className, ...rest }) => {
   return (
@@ -26,8 +26,8 @@ const Logo = ({ at, width, className, ...rest }) => {
           className,
         )}
       >
-        <img className="mr-2" src={logo} alt="Logo" width={width} />
-        <span className="text-sans-serif">hobbyist</span>
+        <img className="mr-3" src={logo} alt="Logo" width={width} />
+        <span className="text-sans-serif">Hobbyist</span>
       </div>
     </Link>
   );
