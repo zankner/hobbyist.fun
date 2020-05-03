@@ -3,13 +3,17 @@ const check = require('check-types');
 const hobbies = require('../data/hobbies');
 
 module.exports.get = async (req, res) => {
-  const { goal, inclination, interest, specifics } = req.query;
+  const { goal, inclination, interest, specific } = req.query;
 
   try {
     check.assert.nonEmptyString(goal);
+    console.log(goal);
     check.assert.nonEmptyString(inclination);
+    console.log(inclination);
     check.assert.nonEmptyString(interest);
-    check.assert.nonEmptyString(specifics);
+    console.log(interest);
+    check.assert.nonEmptyString(specific);
+    console.log(specific);
   } catch {
     return res.sendStatus(status.BAD_REQUEST);
   }
@@ -20,20 +24,20 @@ module.exports.get = async (req, res) => {
     if (goal === 'career') {
       if (inclination === 'creative') {
         if (interest === 'artsy') {
-          if (specifics === 'musical') {
+          if (specific === 'musical') {
             hobby.name = 'Music Production';
             hobby.courses = hobbies.musicProduction;
-          } else if (specifics === 'physical') {
+          } else if (specific === 'physical') {
             hobby.name = 'Graphic Design';
             hobby.courses = hobbies.graphicDesign;
           } else {
             return res.sendStatus(status.UNAUTHORIZED);
           }
         } else if (interest === 'notArtsy') {
-          if (specifics === 'techy') {
+          if (specific === 'techy') {
             hobby.name = 'App/Web Development';
             hobby.courses = hobbies.appDevelopment.concat(hobbies.webDevelopment);
-          } else if (specifics === 'notTechy') {
+          } else if (specific === 'notTechy') {
             hobby.name = 'Writer';
             hobby.courses = hobbies.writer;
           } else {
@@ -44,20 +48,20 @@ module.exports.get = async (req, res) => {
         }
       } else if (inclination === 'analytical') {
         if (interest === 'techy') {
-          if (specifics === 'mathematical') {
+          if (specific === 'mathematical') {
             hobby.name = 'Artificial Intelligence';
             hobby.courses = hobbies.artificialIntelligence;
-          } else if (specifics === 'programming') {
+          } else if (specific === 'programming') {
             hobby.name = 'Backend Development';
             hobby.courses = hobbies.backendDevelopment;
           } else {
             return res.sendStatus(status.UNAUTHORIZED);
           }
         } else if (interest === 'notTechy') {
-          if (specifics === 'business') {
+          if (specific === 'business') {
             hobby.name = 'Management Skills';
             hobby.couress = hobbies.management;
-          } else if (specifics === 'notBusiness') {
+          } else if (specific === 'notBusiness') {
             hobby.name = 'Marketing Skills';
             hobby.courses = hobbies.marketing;
           } else {
@@ -72,20 +76,20 @@ module.exports.get = async (req, res) => {
     } else if (goal === 'hobby') {
       if (inclination === 'active') {
         if (interest === 'outdoors') {
-          if (specifics === 'exercise') {
+          if (specific === 'exercise') {
             hobby.name = 'Tai Chi';
             hobby.courses = hobbies.taiChi;
-          } else if (specifics === 'notExercise') {
+          } else if (specific === 'notExercise') {
             hobby.name = 'Gardening';
             hobby.courses = hobbies.gardening;
           } else {
             return res.sendStatus(status.UNAUTHORIZED);
           }
         } else if (interest === 'notOutdoors') {
-          if (specifics === 'exercise') {
+          if (specific === 'exercise') {
             hobby.name = 'Yoga';
             hobby.courses = hobbies.yoga;
-          } else if (specifics === 'notExercise') {
+          } else if (specific === 'notExercise') {
             hobby.name = 'Juggling';
             hobby.courses = hobbies.juggling;
           } else {
@@ -94,20 +98,20 @@ module.exports.get = async (req, res) => {
         }
       } else if (inclination === 'notActive') {
         if (interest === 'games') {
-          if (specifics === 'contentCreation') {
+          if (specific === 'contentCreation') {
             hobby.name = 'Streaming';
             hobby.courses = hobbies.streaming;
-          } else if (specifics === 'playing') {
+          } else if (specific === 'playing') {
             hobby.name = 'Chess';
             hobby.courses = hobbies.chess;
           } else {
             return res.sendStatus(status.UNAUTHORIZED);
           }
         } else if (interest === 'notGame') {
-          if (specifics === 'food') {
+          if (specific === 'food') {
             hobby.name = 'Cooking';
             hobby.courses = hobbies.cooking;
-          } else if (specifics === 'arts') {
+          } else if (specific === 'arts') {
             hobby.name = 'Photography';
             hobby.courses = hobbies.photography;
           } else {
