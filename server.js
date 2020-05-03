@@ -5,6 +5,7 @@ const enforce = require('express-sslify');
 const morgan = require('morgan');
 const dotenv = require('dotenv');
 const helmet = require('helmet');
+const hobbiesController = require('./src/controllers/hobbies.controller');
 
 // Create express app
 const app = express();
@@ -24,6 +25,8 @@ app.use(helmet());
 app.disable('x-powered-by');
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'dist')));
+
+app.get('/api/hobbies', hobbiesController.get);
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/index.html'));

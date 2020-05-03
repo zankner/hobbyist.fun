@@ -6,9 +6,11 @@ const fs = require('fs');
 const hobbiesRaw = fs.readFileSync('../resources/hobbies.json');
 const hobbies = JSON.parse(hobbiesRaw);
 
-module.exports = async (req, res) => {
-  const { goal, inclination, artsy, tech, business, active, mathematical,
-    liveStream, classical, foodType, outdoors, exercise, games, contentCreation, food, artType } = req.body;
+module.exports.get = async (req, res) => {
+  const {
+    goal, inclination, artsy, tech, business, active, mathematical,
+    liveStream, classical, foodType, outdoors, exercise, games, contentCreation, food, artType,
+  } = req.body;
 
   try {
     check.assert.nonEmptyString(goal);
@@ -47,14 +49,12 @@ module.exports = async (req, res) => {
           } else {
             return res.sendStatus(status.UNAUTHORIZED);
           }
+        } else if (tech) {
+          hobby.name = 'App/Web Development';
+          hobby.courses = hobbies.appDevelopment.concat(hobbies.webDevelopment);
         } else {
-          if (tech) {
-            hobby.name = 'App/Web Development';
-            hobby.courses = hobbies.appDevelopment.concat(hobbies.webDevelopment);
-          } else {
-            hobby.name = 'Writer';
-            hobby.courses = hobbies.writer;
-          }
+          hobby.name = 'Writer';
+          hobby.courses = hobbies.writer;
         }
       } else if (inclination === 'analytical') {
         if (tech) {
@@ -65,14 +65,12 @@ module.exports = async (req, res) => {
             hobby.name = 'Backend Development';
             hobby.courses = hobbies.backendDevelopment;
           }
+        } else if (business) {
+          hobby.name = 'Management Skills';
+          hobby.couress = hobbies.management;
         } else {
-          if (business) {
-            hobby.name = 'Management Skills';
-            hobby.couress = hobbies.management;
-          } else {
-            hobby.name = 'Marketing Skills';
-            hobby.courses = hobbies.marketing;
-          }
+          hobby.name = 'Marketing Skills';
+          hobby.courses = hobbies.marketing;
         }
       } else {
         return res.sendStatus(status.UNAUTHORIZED);
@@ -87,57 +85,47 @@ module.exports = async (req, res) => {
             hobby.name = 'Gardening';
             hobby.courses = hobbies.gardening;
           }
+        } else if (exercise) {
+          hobby.name = 'Yoga';
+          hobby.courses = hobbies.yoga;
         } else {
-          if (exercise) {
-            hobby.name = 'Yoga';
-            hobby.courses = hobbies.yoga;
-          } else {
-            hobby.name = 'Juggling';
-            hobby.courses = hobbies.juggling;
-          }
+          hobby.name = 'Juggling';
+          hobby.courses = hobbies.juggling;
         }
+      } else if (games) {
+        if (contentCreation) {
+          if (liveStream) {
+            hobby.name = 'Streaming';
+            hobby.courses = hobbies.streaming;
+          } else {
+            hobby.name = 'Youtube';
+            hobby.courses = hobbies.youtube;
+          }
+        } else if (classical) {
+          hobby.name = 'Chess';
+          hobby.courses = hobbies.chess;
+        } else {
+          hobby.name = 'Fortnite';
+          hobby.courses = hobbies.fortnite;
+        }
+      } else if (food) {
+        if (foodType === 'meal') {
+          hobby.name = 'Cooking';
+          hobby.courses = hobbies.cooking;
+        } else if (foodType === 'dessert') {
+          hobby.name = 'Dessert Making';
+          hobby.courses = hobbies.desserts;
+        } else {
+          return res.sendStatus(status.UNAUTHORIZED);
+        }
+      } else if (artType === 'fineArts') {
+        hobby.name = 'Photography';
+        hobby.courses = hobbies.photography;
+      } else if (artType === 'crafts') {
+        hobby.name = 'Knitting';
+        hobby.courses = hobbies.knitting;
       } else {
-        if (games) {
-          if (contentCreation) {
-            if (liveStream) {
-              hobby.name = 'Streaming';
-              hobby.courses = hobbies.streaming;
-            } else {
-              hobby.name = 'Youtube';
-              hobby.courses = hobbies.youtube;
-            }
-          } else {
-            if (classical) {
-              hobby.name = 'Chess';
-              hobby.courses = hobbies.chess;
-            } else {
-              hobby.name = 'Fortnite';
-              hobby.courses = hobbies.fortnite;
-            }
-          }
-        } else {
-          if (food) {
-            if (foodType === 'meal') {
-              hobby.name = 'Cooking';
-              hobby.courses = hobbies.cooking;
-            } else if (foodType === 'dessert') {
-              hobby.name = 'Dessert Making';
-              hobby.courses = hobbies.desserts;
-            } else {
-              return res.sendStatus(status.UNAUTHORIZED);
-            }
-          } else {
-            if (artType === 'fineArts'){
-              hobby.name = 'Photography';
-              hobby.courses = hobbies.photography;
-            } else if (artType === 'crafts') {
-              hobby.name = 'Knitting';
-              hobby.courses = hobbies.knitting;
-            } else {
-              return res.sendStatus(status.UNAUTHORIZED);
-            }
-          }
-        }
+        return res.sendStatus(status.UNAUTHORIZED);
       }
     } else {
       return res.sendStatus(status.UNAUTHORIZED);
