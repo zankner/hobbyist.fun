@@ -7,7 +7,8 @@
     "build": "webpack --display-error-details",
     "lint": "eslint \"**/*.js\"",
     "dev": "webpack-dev-server",
-    "scss": "gulp"
+    "scss": "gulp",
+    "test": "node ./bin/test.js"
   },
   "dependencies": {
     "@firebase/app": "^0.6.1",
@@ -27,6 +28,7 @@
     "bootstrap": "^4.4.1",
     "chance": "^1.1.4",
     "chart.js": "^2.9.3",
+    "check-types": "^11.1.2",
     "chroma-js": "^2.1.0",
     "classnames": "^2.2.6",
     "compression": "^1.7.4",
@@ -42,6 +44,7 @@
     "file-saver": "^2.0.2",
     "formik": "^2.1.4",
     "helmet": "^3.22.0",
+    "http-status": "^1.4.2",
     "is-absolute-url": "^3.0.3",
     "jquery": "^3.4.1",
     "json2csv": "^5.0.0",

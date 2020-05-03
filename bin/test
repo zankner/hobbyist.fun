@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+const axios = require('axios');
+
+console.log('Testing...');
+
+axios.post(`http://localhost:7000/api/hobbies`,
+  {goal: 'career', interest: 'artsy', inclination: 'creative', specifics: 'musical'}
+}).then((res) => {
+  console.log(res);
+}).catch(err => {
+  console.log(err)
+});
