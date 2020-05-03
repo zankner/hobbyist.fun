@@ -61,7 +61,7 @@ module.exports.get = async (req, res) => {
             hobby.name = 'Management Skills';
             hobby.courses = hobbies.management;
             console.log(hobby);
-          } else if (specific === 'notBusiness') {
+          } else if (specific === 'notbusiness') {
             hobby.name = 'Marketing Skills';
             hobby.courses = hobbies.marketing;
           } else {
