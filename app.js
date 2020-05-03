@@ -18,6 +18,8 @@ if (process.env.NODE_ENV !== 'production') {
 
 // Define routers
 const indexRouter = require('./routes/index');
+const apiRouter = require('./routes/api');
+
 
 // Set up app
 app.use(express.json());
@@ -27,5 +29,6 @@ app.use(express.static(path.join(__dirname, 'dist')));
 
 // Set up routers
 app.use('/', indexRouter);
+app.use('/api', apiRouter);
 
 module.exports = app;

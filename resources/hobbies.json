@@ -1,0 +1,422 @@
+{
+  "musicProduction": [
+    {
+      "type": "coursera",
+      "name": "Music Production Specialization",
+      "imgUrl": "https://s3.amazonaws.com/coursera/media/Partner_Logos.png",
+      "url": "https://www.coursera.org/specializations/music-production"
+    },
+    {
+      "type": "udemy",
+      "name": "Music + Audio Production in Logic Pro X - The Complete Guide",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/826876_4fd1_6.jpg",
+      "url": "https://www.udemy.com/course/music-production-in-logic-pro-x-course/"
+    },
+    {
+      "type": "masterclass",
+      "name": "Deadmau5 Teaches Electronic Music Production",
+      "imgUrl": "https://www.masterclass.com/course-images/images/3317/original/1570652218-dm_cinematic_12x5.jpg",
+      "url": "https://www.masterclass.com/classes/deadmau5-teaches-electronic-music-production"
+    }
+  ],
+  "graphicDesign": [
+    {
+      "type": "coursera",
+      "name": "Graphic Design Specialization",
+      "imgUrl": "https://s3.amazonaws.com/coursera/media/Partner_Logos.png",
+      "url": "https://www.coursera.org/specializations/graphic-design"
+    },
+    {
+      "type": "skillshare",
+      "name": "Design Great Stuff: How to Make Merch with Draplin",
+      "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/91efb6a5a8a7b92e31d2f1bb43daacb0/original",
+      "url": "https://www.skillshare.com/classes/Design-Great-Stuff-How-to-Make-Merch-with-Draplin/597293942?via=browse-featured"
+    },
+    {
+      "type": "udemy",
+      "name": "Graphic Design Bootcamp: Part 1",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/749542_4762_3.jpg",
+      "url": "https://www.udemy.com/course/graphic-design-for-beginners/"
+    }
+  ],
+  "appDevelopment": [
+    {
+      "type": "udemy",
+      "name": "iOS 13 & Swift 5 - The Complete iOS App Development Bootcamp",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/1778502_f4b9_11.jpg",
+      "url": "https://www.udemy.com/course/ios-13-app-development-bootcamp/"
+    },
+    {
+      "type": "udacity",
+      "name": "Developing Android Apps",
+      "imgUrl": "https://d20vrrgs8k4bvw.cloudfront.net/images/courses/thumbnails/ud851_thumbnail.jpg",
+      "url": "https://www.udacity.com/course/new-android-fundamentals--ud851"
+    },
+    {
+      "type": "udemy",
+      "name": "The Complete React Native + Hooks Course [2020 Edition]",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/959700_8bd2_11.jpg",
+      "url": "https://www.udemy.com/course/the-complete-react-native-and-redux-course/"
+    }
+  ],
+  "webDevelopment": [
+    {
+      "type": "udacity",
+      "name": "NanoDegree Program: Full Stack Web Developer",
+      "imgUrl": "https://images.ctfassets.net/2y9b3o528xhq/1YvMlkplkBP1hJrErUQ5hx/ba5dabd879a46f5972e52fcf6ba26b80/nd004_open_graph.jpg",
+      "url": "https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044"
+    },
+    {
+      "type": "coursera",
+      "name": "Web Design for Everybody: Basics of Web Development & Coding Specialization",
+      "imgUrl": "https://s3.amazonaws.com/coursera/media/Partner_Logos.png",
+      "url": "https://www.coursera.org/specializations/web-design"
+    },
+    {
+      "type": "udemy",
+      "name": "The Web Developer Bootcamp",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/625204_436a_2.jpg",
+      "url": "https://www.udemy.com/course/the-web-developer-bootcamp/"
+    }
+  ],
+  "writer": [
+    {
+      "type": "masterclass",
+      "name": "Margaret Atwood Teaches Creative Writing",
+      "imgUrl": "https://www.masterclass.com/course-images/images/3407/original/1570215328-MA_cinematic_12x5.jpg",
+      "url": "https://www.masterclass.com/classes/margaret-atwood-teaches-creative-writing"
+    },
+    {
+      "type": "udemy",
+      "name": "Writing With Flair: How To Become An Exceptional Writer",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/196152_331b_3.jpg",
+      "url": "https://www.udemy.com/course/writing-with-flair-how-to-become-an-exceptional-writer/"
+    },
+    {
+      "type": "masterclass",
+      "name": "James Patterson Teaches Writing",
+      "imgUrl": "https://www.masterclass.com/course-images/images/3210/original/1570652236-JP_cinematic_12x5.jpg",
+      "url": "https://www.masterclass.com/classes/james-patterson-teaches-writing"
+    }
+  ],
+  "artificialIntelligence": [
+    {
+      "type": "coursera",
+      "name": "Machine Learning",
+      "imgUrl": "https://s3.amazonaws.com/coursera/media/Partner_Logos.png",
+      "url": "https://www.coursera.org/learn/machine-learning"
+    },
+    {
+      "type": "udacity",
+      "name": "Nanodegree Program: Expand Your Knowledge of Artificial Intelligence",
+      "imgUrl": "https://images.ctfassets.net/2y9b3o528xhq/426kNNsci6aS6msnj3K8aW/59d54b85f45f146b0fb36211f060d280/nd898_open_graph.jpg",
+      "url": "https://www.udacity.com/course/ai-artificial-intelligence-nanodegree--nd898"
+    },
+    {
+      "type": "coursera",
+      "name": "AI for Everyone",
+      "imgUrl": "https://s3.amazonaws.com/coursera/media/Partner_Logos.png",
+      "url": "https://www.coursera.org/learn/ai-for-everyone"
+    }
+  ],
+  "management": [
+    {
+      "type": "udemy",
+      "name": "Management Skills: New Manager Training in Essential Skills",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/988524_8235_7.jpg",
+      "url": "https://www.udemy.com/course/the-new-manager-managing-people-teams-processes/"
+    },
+    {
+      "type": "masterclass",
+      "name": "Howard Schultz Business Leadership",
+      "imgUrl": "https://www.masterclass.com/course-images/images/3389/original/1570652239-HS_cinematic_12x5.jpg",
+      "url": "https://www.masterclass.com/classes/howard-schultz-leading-a-values-based-business"
+    },
+    {
+      "type": "udemy",
+      "name": "An Entire MBA in 1 Course:Award Winning Business School Prof",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/637930_9a22_19.jpg",
+      "url": "https://www.udemy.com/course/an-entire-mba-in-1-courseaward-winning-business-school-prof/"
+    }
+  ],
+  "marketing": [
+    {
+      "type": "coursera",
+      "name": "Digital Marketing Specialization",
+      "imgUrl": "https://s3.amazonaws.com/coursera/media/Partner_Logos.png",
+      "url": "https://www.coursera.org/specializations/digital-marketing"
+    },
+    {
+      "type": "udemy",
+      "name": "The Complete Digital Marketing Course - 12 Courses in 1",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/914296_3670_8.jpg",
+      "url": "https://www.udemy.com/course/learn-digital-marketing-course/"
+    },
+    {
+      "type": "coursera",
+      "name": "Introduction to Marketing",
+      "imgUrl": "https://s3.amazonaws.com/coursera/media/Partner_Logos.png",
+      "url": "https://www.coursera.org/learn/wharton-marketing"
+    }
+  ],
+  "gardening": [
+    {
+      "type": "udemy",
+      "name": "The Beginner's Guide to Vegetable Gardening",
+      "imgUrl": "",
+      "url": "https://www.udemy.com/course/vegetable-gardening-basics/"
+    },
+    {
+      "type": "skillshare",
+      "name": "Beginner's Guide to Gardening with a Raised Bed Garden",
+      "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/85428756bbc8ab869f1e8531893ea4ea/original",
+      "url": "https://www.skillshare.com/classes/Beginners-Guide-to-Gardening-with-a-Raised-Bed-Garden/1020223962?via=browse-rating-gardening-layout-grid"
+    },
+    {
+      "type": "skillshare",
+      "name": "Happy Houseplants: Caring For Your Plants | Learn with The Sill",
+      "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/ec06d26b3a15354ad6be4cb54d490509/original",
+      "url": "https://www.skillshare.com/classes/Happy-Houseplants-Caring-For-Your-Plants-Learn-with-The-Sill/2039942571?via=browse-rating-gardening-layout-grid"
+    }
+  ],
+  "yoga": [
+    {
+      "type": "youtube",
+      "name": "Yoga with Adriene",
+      "imgUrl": "https://yogawithadriene.com/wp-content/uploads/2019/09/adriene-about-2.jpg",
+      "url": "https://yogawithadriene.com/free-yoga-videos/"
+    },
+    {
+      "type": "youtube",
+      "name": "Yoga Practice Videos - Yoga Vidya",
+      "imgUrl": "https://yt3.ggpht.com/a/AATXAJz7DjpzGPT01N4290xHLON85LJszW263WtaCw=s288-c-k-c0xffffffff-no-rj-mo",
+      "url": "https://www.youtube.com/user/YogaVidyaEnglish/playlists"
+    },
+    {
+      "type": "glo",
+      "name": "Glo is designed to help you feel better in body and mind",
+      "imgUrl": "https://d28z2mkpklymta.cloudfront.net/7.4.4/img/open-graph.jpg",
+      "url": "https://www.glo.com/"
+    }
+  ],
+  "juggling": [
+    {
+      "type": "udemy",
+      "name": "How to Juggle 3 Balls -- From Start To Star!",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/608944_e3d4.jpg",
+      "url": "https://www.udemy.com/course/how-to-juggle-3-balls/"
+    },
+    {
+      "type": "skillshare",
+      "name": "Juggling Tutorials w/ Josh Horton",
+      "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/9b2fa707b3ab9232e6d7a42fd749b8d6/original",
+      "url": "https://www.skillshare.com/classes/Juggling-Tutorials-w-Josh-Horton/1689676851?via=browse-rating-juggling-layout-grid"
+    },
+    {
+      "type": "youtube",
+      "name": "Tutorial - Learn How To Juggle 3 Balls",
+      "imgUrl": "https://yt3.ggpht.com/a/AATXAJwDLQmhhllizUYpXSQ0gg9GR5XAjVd0beYzew=s288-c-k-c0xffffffff-no-rj-mo",
+      "url": "https://www.youtube.com/watch?v=x2_j6kMg1co"
+    }
+  ],
+  "streaming": [
+    {
+      "type": "udemy",
+      "name": "Complete Twitch Streaming Tutorial Series: PS4, Xbox One, PC",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/1223786_7cfd_2.jpg",
+      "url": "https://www.udemy.com/course/twitch-streaming-tutorial-ps4-xbox-one-pc/"
+    },
+    {
+      "type": "skillshare",
+      "name": "Ultimate Beginner's Guide to Open Broadcaster Software(OBS)\n",
+      "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/3ce11c4fcb650440a7ec28f212d7981f/original",
+      "url": "https://www.skillshare.com/classes/Ultimate-Beginners-Guide-to-Open-Broadcaster-SoftwareOBS/242595511?via=browse-rating-live-streaming-layout-grid"
+    },
+    {
+      "type": "twitch",
+      "name": "Twitch Creator Camp",
+      "imgUrl": "https://www.twitch.tv/creatorcamp/assets/uploads/crpo-01-1-twitch101-1.jpg",
+      "url": "https://www.twitch.tv/creatorcamp/en/learn-the-basics/"
+    }
+  ],
+  "chess": [
+    {
+      "type": "udemy",
+      "name": "Chess: From Beginner to Advanced at Warp Speed",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/229098_2e0b_4.jpg",
+      "url": "https://www.udemy.com/course/chess-from-beginner-to-advanced-at-warp-speed/"
+    },
+    {
+      "type": "chess",
+      "name": "Learn to Play Chess",
+      "imgUrl": "https://betacssjs.chesscomfiles.com/bundles/web/images/social/share-lessons.8e767734.jpg",
+      "url": "https://www.chess.com/lessons"
+    },
+    {
+      "type": "masterclass",
+      "name": "Garry Kasparov Teaches Chess",
+      "imgUrl": "https://www.masterclass.com/course-images/images/3329/original/1570215163-GK_cinematic_12x5.jpg",
+      "url": "https://www.masterclass.com/classes/garry-kasparov-teaches-chess"
+    }
+  ],
+  "cooking": [
+    {
+      "type": "masterclass",
+      "name": "Gordon Ramsey Teaches Cooking",
+      "imgUrl": "https://www.masterclass.com/course-images/images/3443/original/1570215402-GR_cinematic_12x5.jpg",
+      "url": "https://www.masterclass.com/classes/gordon-ramsay-teaches-cooking"
+    },
+    {
+      "type": "masterclass",
+      "name": "Wolfgang Puck Teaches Cooking",
+      "imgUrl": "https://www.masterclass.com/course-images/images/3383/original/1570652275-WP_cinematic_12x5.jpg",
+      "url": "https://www.masterclass.com/classes/wolfgang-puck-teaches-cooking"
+    },
+    {
+      "type": "skillshare",
+      "name": "Think Like a Chef: A Beginner's Guide to Cooking with Confidence",
+      "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/a551d794b68a4bafb121520da07d0868/original",
+      "url": "https://www.skillshare.com/classes/Think-Like-a-Chef-A-Beginners-Guide-to-Cooking-with-Confidence/1814478058?via=browse-rating-cooking-layout-grid"
+    }
+  ],
+  "photography": [
+    {
+      "type": "masterclass",
+      "name": "Annie Leibovitz Teaches Photography",
+      "imgUrl": "https://www.masterclass.com/course-images/images/3216/original/1570652282-AL_cinematic_12x5.jpg",
+      "url": "https://www.masterclass.com/classes/annie-leibovitz-teaches-photography"
+    },
+    {
+      "type": "udemy",
+      "name": "Ultimate Photoshop Training: From Beginner to Pro\n",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/1046722_cbd7_2.jpg",
+      "url": "https://www.udemy.com/course/ultimate-photoshop-training-from-beginner-to-pro/"
+    },
+    {
+      "type": "masterclass",
+      "name": "Jimmy Chin Teaches Adventure Photography",
+      "imgUrl": "https://www.masterclass.com/course-images/images/3192/original/1570214900-JCh_cinematic_12x5.jpg",
+      "url": "https://www.masterclass.com/classes/jimmy-chin-teaches-adventure-photography"
+    }
+  ],
+  "knitting": [
+    {
+      "type": "skillshare",
+      "name": "Knitting I: Learn the Basics with a Simple Scarf",
+      "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/46bcd65726fa609caf04735832b8419a/original",
+      "url": "https://www.skillshare.com/classes/Knitting-I-Learn-the-Basics-with-a-Simple-Scarf/495264189?via=browse-rating-knitting-layout-grid"
+    },
+    {
+      "type": "instructables",
+      "name": "Knitting Class",
+      "imgUrl": "https://content.instructables.com/F6V/TZVN/K6HPDJBC/F6VTZVNK6HPDJBC.LARGE.jpg?auto=webp&frame=1&width=2100",
+      "url": "https://www.instructables.com/class/Knitting-Class/"
+    },
+    {
+      "type": "skillshare",
+      "name": "Create a Macramé Wall Hanging Using 5 Easy Knots",
+      "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/79bd9a4ba6282f3c0c3290ae0953739d/original",
+      "url": "https://www.skillshare.com/classes/Create-a-Macram%C3%A9-Wall-Hanging-Using-5-Easy-Knots/152987865?via=browse-rating-knitting-layout-grid"
+    }
+  ],
+  "backendDevelopment": [
+    {
+      "type": "Udacity",
+      "name": "Intro to Backend",
+      "imgUrl": "https://images.ctfassets.net/2y9b3o528xhq/2dmDLmWvCncVHcQ6lz9u5v/a629a880566610af3e4d0662e9ebb73b/udacity-logo_open_graph.jpg",
+      "url": "https://www.udacity.com/course/intro-to-backend--ud171"
+    },
+    {
+      "type": "coursera",
+      "name": "Server-side Development with NodeJS, Express and MongoDB",
+      "imgUrl": "https://images-ext-1.discordapp.net/external/Ux6lRRbNHx-MO8L1FMmb1k6ArI6TBH6vAqukLoNzBiE/https/s3.amazonaws.com/coursera/media/Partner_Logos.png",
+      "url": "https://www.coursera.org/learn/server-side-nodejs"
+    },
+    {
+      "type": "udemy",
+      "name": "Complete back end development with NodeJS with projects",
+      "imgUrl": "https://images-ext-1.discordapp.net/external/gqFh4admC3vqSDlRAnEp4tl5wx75Y1iMrFOWCVwI3Sw/https/img-a.udemycdn.com/course/480x270/1747658_e8aa.jpg",
+      "url": "https://www.udemy.com/course/complete-back-end-development-with-nodejs-projects/"
+    }
+  ],
+  "taiChi": [
+    {
+      "type": "youtube",
+      "name": "et Li - Learn Tai Chi Online with Taiji Zen",
+      "imgUrl": "https://yt3.ggpht.com/a/AATXAJyZ6u7oEd8VwhG521LPJ2080c8Kz1Fk4UWjWA=s288-c-k-c0xffffffff-no-rj-mo",
+      "url": "https://www.youtube.com/watch?v=4rnARSRCSZ4&list=PLSKRQ_LPOnRr-K-xsZ1Z5Y2efCQn0JFeU"
+    },
+    {
+      "type": "youtube",
+      "name": "Tai Chi for Beginners Video | Dr Paul Lam | Free Lesson and Introduction",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdoQNJLDMCKaNB4zEQXGj8MaXNxpxyQ4BJyIqlozMZlETVH4HM&usqp=CAU",
+      "url": "https://www.youtube.com/watch?v=hIOHGrYCEJ4&list=PLMypbNPFKGgRcuiKMpj79cE-VHP4I2zhB"
+    },
+    {
+      "type": "youtube",
+      "name": "Qigong 5 Minutes a Day",
+      "imgUrl": "https://yt3.ggpht.com/a/AATXAJwlOpBJlm5Bdksv_S5wBJp1-hnAcF1M75jehA=s288-c-k-c0xffffffff-no-rj-mo",
+      "url": "https://www.youtube.com/watch?v=LZ2oHU-mMJI&list=PL6_Q_fN6bgLUbbcMVmktak3IO8czX6PHH"
+    }
+  ],
+  "youtube": [
+    {
+      "type": "udemy",
+      "name": "The Complete YouTube Course: Go from Beginner to Expert",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/982152_ca8b_3.jpg",
+      "url": "https://www.udemy.com/course/youtubesuccess/"
+    },
+    {
+      "type": "udemy",
+      "name": "YouTube Masterclass - Your Complete Guide to YouTube",
+      "imgUrl": "https://img-a.udemycdn.com/course/480x270/703140_703a_3.jpg",
+      "url": "https://www.udemy.com/course/youtube-masterclass/"
+    },
+    {
+      "type": "skillshare",
+      "name": "YouTube Success: Build an Authentic Channel That's Worth the Follow",
+      "imgUrl": "https://images-ext-2.discordapp.net/external/ey5etMgus36bdi8BPhF0LVGqUN3UI169bVYvKT9hivA/https/static.skillshare.com/uploads/video/thumbnails/fcdff201f65fd528a525c7ef92686eea/original?width=1221&height=687",
+      "url": "https://www.skillshare.com/classes/YouTube-Success-Build-an-Authentic-Channel-Thats-Worth-the-Follow/480771818?via=browse-rating-youtube-layout-grid"
+    }
+  ],
+  "fortnite": [
+    {
+      "type": "proguides",
+      "name": "Learn Fortnite from the pros",
+      "imgUrl": "https://www.questvp.com/wp-content/uploads/2020/01/ProGuides.jpg",
+      "url": "https://www.proguides.com/courses/fortnite"
+    },
+    {
+      "type": "udemy",
+      "name": "Become a Great Fortnite Builder- Fast Building Course",
+      "imgUrl": "https://images-ext-2.discordapp.net/external/0_nVEkmUmUTKmNWcsY_sQsCbUDKOHMh6D9TsegWzBhA/https/img-a.udemycdn.com/course/480x270/1720688_58fc_8.jpg",
+      "url": "https://www.udemy.com/course/fortnite/"
+    },
+    {
+      "type": "fortnitebootcamp",
+      "name": "Turning Potatoes into Pros",
+      "imgUrl": "https://store-images.s-microsoft.com/image/apps.18889.70702278257994163.77e66bd3-4e13-4401-b4c0-8c5c5e906824.3144486a-3d08-4752-8445-5b6cf67e8193?mode=scale&q=90&h=1080&w=1920",
+      "url": "https://fortnitebootcamp.com/"
+    }
+  ],
+  "desserts": [
+    {
+      "type": "masterclass",
+      "name": "Dominique Ansel Teaches French Pastry Fundamentals",
+      "imgUrl": "https://www.masterclass.com/course-images/images/3102/original/1570214774-DA_cinematic_12x5.jpg",
+      "url": "https://www.masterclass.com/classes/dominique-ansel-teaches-french-pastry-fundamentals"
+    },
+    {
+      "type": "udemy",
+      "name": "Online Pastry School - 1 Week Mastery Course",
+      "imgUrl": "https://images-ext-1.discordapp.net/external/RbFMQM_vUIkJT-yxO-NWAmtbEWHd0BcSvl8dYuJYDXk/https/img-a.udemycdn.com/course/480x270/59799_dc7d_7.jpg",
+      "url": "https://www.udemy.com/course/the-pastry-arts-online-pastry-training-centre-part-1/"
+    },
+    {
+      "type": "skillshare",
+      "name": "How to Make French Macarons",
+      "imgUrl": "https://images-ext-1.discordapp.net/external/EALTtVwjTglaDuK1SnPWuqRawqeiftccvxO5kcWqV2Y/https/static.skillshare.com/uploads/video/thumbnails/148e1356ff65e0c08273f684c3f3cc22/original?width=1224&height=687",
+      "url": "https://www.skillshare.com/classes/How-to-Make-French-Macarons/1333511225?via=browse-rating-dessert-layout-grid"
+    }
+  ]
+}
