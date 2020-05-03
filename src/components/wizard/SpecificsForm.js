@@ -18,24 +18,24 @@ const SpecificsForm = () => {
             className="mb-3"
           />
           <CardSelect
-            value="notmusical"
+            value="notMusical"
             name="specific"
             title="I'm not a very musical person; I prefer drawing and painting to singing."
             description="I prefer ."
           />
         </FormGroup>
       )}
-      {values.interest === 'notartsy' && (
+      {values.interest === 'notArtsy' && (
         <FormGroup>
           <CardSelect
-            value="techbased"
+            value="techy"
             name="specific"
             title="I like working with computers"
             description="The idea of building an app or website interests me."
             className="mb-3"
           />
           <CardSelect
-            value="nottechbased"
+            value="notTechy"
             name="specific"
             title="I prefer to work with my hands"
             description="I'm not really a computer person. I'd rather write a book than publish a website."
@@ -52,14 +52,14 @@ const SpecificsForm = () => {
             className="mb-3"
           />
           <CardSelect
-            value="notmathematical"
+            value="programming"
             name="specific"
             title="I'm not a big math person"
-            description="I'm interested in computers, but am not a very computer-oriented person."
+            description="I'm interested in computers, but am not a very math-oriented person."
           />
         </FormGroup>
       )}
-      {values.interest === 'nottechy' && (
+      {values.interest === 'notTechy' && (
         <FormGroup>
           <CardSelect
             value="business"
@@ -76,7 +76,7 @@ const SpecificsForm = () => {
           />
         </FormGroup>
       )}
-      {values.interest === 'indoorsy' && (
+      {values.interest === 'notOutdoors' && (
         <FormGroup>
           <CardSelect
             value="exercise"
@@ -86,14 +86,14 @@ const SpecificsForm = () => {
             className="mb-3"
           />
           <CardSelect
-            value="notexercise"
+            value="notExercise"
             name="specific"
             title="I just wanna have fun"
             description="I'd love to try yoga or Tai Chi rather than lift weights and do squats."
           />
         </FormGroup>
       )}
-      {values.interest === 'outdoorsy' && (
+      {values.interest === 'outdoors' && (
         <FormGroup>
           <CardSelect
             value="exercise"
@@ -103,31 +103,31 @@ const SpecificsForm = () => {
             className="mb-3"
           />
           <CardSelect
-            value="notexercise"
+            value="notExercise"
             name="specific"
             title="I just wanna have fun"
             description="I'd rather go to the park and throw a frisbee than ride a bike up a long hill."
           />
         </FormGroup>
       )}
-      {values.interest === 'gamer' && (
+      {values.interest === 'games' && (
         <FormGroup>
           <CardSelect
-            value="contentcreation"
+            value="contentCreation"
             name="specific"
-            title="I want to learn how to make games"
-            description="I've always wondered how my favorite video games were made."
+            title="I want to learn how to share my gameplay"
+            description="I've always wanted to share the fun I have playing games."
             className="mb-3"
           />
           <CardSelect
-            value="notcontentcreation"
+            value="playing"
             name="specific"
             title="I just want to play"
             description="I want to become a better player by studying strategy and technique."
           />
         </FormGroup>
       )}
-      {values.interest === 'notgamer' && (
+      {values.interest === 'notGame' && (
         <FormGroup>
           <CardSelect
             value="food"
@@ -137,7 +137,7 @@ const SpecificsForm = () => {
             className="mb-3"
           />
           <CardSelect
-            value="notfood"
+            value="arts"
             name="specific"
             title="I'm not really a foodie"
             description="I'm interested in activities like history, knitting and photography."

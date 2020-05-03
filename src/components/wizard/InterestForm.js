@@ -18,7 +18,7 @@ const InterestForm = () => {
             className="mb-3"
           />
           <CardSelect
-            value="notartsy"
+            value="notArtsy"
             name="interest"
             title="I'm not very artsy"
             description="I'd much rather build an app than paint a masterpiece."
@@ -35,7 +35,7 @@ const InterestForm = () => {
             className="mb-3"
           />
           <CardSelect
-            value="nottechy"
+            value="notTechy"
             name="interest"
             title="I prefer to work with my hands"
             description="I'm not really a computer person; I'd rather play chess than build an app."
@@ -45,31 +45,31 @@ const InterestForm = () => {
       {values.inclination === 'active' && (
         <FormGroup>
           <CardSelect
-            value="outdoorsy"
+            value="outdoors"
             name="interest"
             title="I am able to go outside"
             description="I am able and prefer to go outside and get some sunshine and fresh air."
             className="mb-3"
           />
           <CardSelect
-            value="indoorsy"
+            value="notOutdoors"
             name="interest"
             title="I'm more of an inside person"
             description="I am either unable or don't want to leave the house right now."
           />
         </FormGroup>
       )}
-      {values.inclination === 'inactive' && (
+      {values.inclination === 'notActive' && (
         <FormGroup>
           <CardSelect
-            value="gamer"
+            value="games"
             name="interest"
             title="I like playing games"
             description="I'm a fan of board games, card games, and video games."
             className="mb-3"
           />
           <CardSelect
-            value="nongamer"
+            value="notGame"
             name="interest"
             title="I'm not really a game person"
             description="I don't really want to work out, but I'm not a huge game person either."

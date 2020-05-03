@@ -35,7 +35,7 @@ const InclinationForm = () => {
             className="mb-3"
           />
           <CardSelect
-            value="inactive"
+            value="notActive"
             name="inclination"
             title="I prefer to work with my mind"
             description="I'm more of a thinker than a mover. I prefer chess to yoga."
