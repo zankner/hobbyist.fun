@@ -17,7 +17,7 @@ const GoalForm = () => {
           value="hobby"
           title="Pick up a hobby"
           name="goal"
-          description="Learn a skill to further your career, like coding, marketing, or music production."
+          description="Learn a skill to keep yourself busy, like yoga, juggling, music, or chess"
         />
       </FormGroup>
     </>

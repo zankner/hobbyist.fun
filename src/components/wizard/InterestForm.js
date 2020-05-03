@@ -14,14 +14,14 @@ const InterestForm = () => {
             value="artsy"
             name="interest"
             title="I'm an artsy person"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I like photography, music, and painting over coding and writing."
             className="mb-3"
           />
           <CardSelect
             value="notartsy"
             name="interest"
             title="I'm not very artsy"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I'd much rather build an app than paint a masterpiece."
           />
         </FormGroup>
       )}
@@ -31,14 +31,14 @@ const InterestForm = () => {
             value="techy"
             name="interest"
             title="I like working with computers"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I want to learn about building apps and designing websites."
             className="mb-3"
           />
           <CardSelect
             value="nottechy"
             name="interest"
             title="I prefer to work with my hands"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I'm not really a computer person; I'd rather play chess than build an app."
           />
         </FormGroup>
       )}
@@ -47,15 +47,15 @@ const InterestForm = () => {
           <CardSelect
             value="outdoorsy"
             name="interest"
-            title="I like to be active"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            title="I am able to go outside"
+            description="I am able and prefer to go outside and get some sunshine and fresh air."
             className="mb-3"
           />
           <CardSelect
             value="indoorsy"
             name="interest"
-            title="I prefer to work with my mind"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            title="I'm more of an inside person"
+            description="I am either unable or don't want to leave the house right now."
           />
         </FormGroup>
       )}
@@ -65,14 +65,14 @@ const InterestForm = () => {
             value="gamer"
             name="interest"
             title="I like playing games"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I'm a fan of board games, card games, and video games."
             className="mb-3"
           />
           <CardSelect
             value="nongamer"
             name="interest"
             title="I'm not really a game person"
-            description="Learn a skill to further your career, like coding, marketing, or music production."
+            description="I don't really want to work out, but I'm not a huge game person either."
           />
         </FormGroup>
       )}
