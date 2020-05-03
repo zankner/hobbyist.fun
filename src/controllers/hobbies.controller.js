@@ -3,7 +3,7 @@ const check = require('check-types');
 const hobbies = require('../data/hobbies');
 
 module.exports.get = async (req, res) => {
-  const { goal, inclination, interest, specifics } = req.body;
+  const { goal, inclination, interest, specifics } = req.query;
 
   try {
     check.assert.nonEmptyString(goal);
